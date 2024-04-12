@@ -16,7 +16,7 @@
   - Keeps a connection to a server open by default for reuse.
   - Head-of-line blocking (HOL) is when a request can't be issued until the response to the previous one has been received.
 - HTTP1.1:
-  - Allows some types of requests to be pipelined but stillsuffers from HOL blocking as a single slow response will block all the response after it.
+  - Allows some types of requests to be pipelined but still suffers from HOL blocking as a single slow response will block all the response after it.
 - HTTP 2:
   - Uses a binary protocol rather than a textual one.
   - Supports multiplexing which allows multiple concurrent request-response transactions (streams) on the same connection.
